@@ -1,0 +1,23 @@
+@media (max-width:720px) {
+    .section-title{
+        display: grid;
+    }
+    .section-title p{
+        text-align: justify;
+    }
+    
+}
+.section-title p{
+    width:522px;
+    height:69px;
+    text-align: justify;
+
+}
+.section-title{
+ display:flex;
+ flex-direction: row;
+ padding:  112px 80px 112px 80px;
+ justify-content: space-between;
+ 
+ 
+}

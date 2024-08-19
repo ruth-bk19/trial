@@ -1,0 +1,27 @@
+.logos_container .logo-list{
+   display:flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   margin-top:48px;
+}
+ 
+ .logos_container .single-paragraph p{
+    text-align: center;
+     margin-top: 64px; 
+
+}
+.logo-list  .items {
+    display: inline-flex;
+    margin-right: 30px;
+    justify-content: center;
+  
+}  
+
+.logos_container img{
+    width:36px;
+    height:40px;
+}
+.logo-list p{
+    color:#000000;
+  
+}

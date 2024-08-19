@@ -1,0 +1,37 @@
+@media(max-width:720px){
+    .container_content{
+        display:grid;
+    }
+}
+.container_content{
+    display:inline-flex;
+    border-radius: 8px;
+    background-color: white;
+    width: 416px;
+    height:auto;
+   margin: 64px 0px 0px 32px;
+
+}
+.container_content .content{
+    display:grid;
+    margin: 32px;
+    gap:32px;
+}
+.img-section div{
+    display:inline-block;
+    gap: 16px;
+}
+
+
+ .container_content .content  .img-section img{
+     width:56px;
+    height:56px; 
+}
+ .container_content .content .img-section{
+   display: flex;
+   gap:16px;
+}
+div h1{
+    text-align: center;
+    margin: 104px 0px 64px 0px ;
+}

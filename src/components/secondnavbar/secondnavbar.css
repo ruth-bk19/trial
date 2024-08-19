@@ -1,0 +1,44 @@
+ 
+ @media (max-width:750px) {
+   .container{
+      display:grid;
+      grid-auto-flow: column;
+   }
+   img{
+      display:none;
+      
+   }
+ }
+ .container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 80px; 
+    margin-right: 80px; 
+    margin-bottom:123px;  
+    justify-content: space-between;
+   
+  
+ }
+ img{
+    height:239.38px;
+    width:205.31px;
+    border-radius:8px;
+
+ 
+}
+ 
+
+span{
+   color:#DC6B59;
+    
+}
+.header img{
+   width:111px; 
+   height:55px;
+}
+.header{
+   display:flex;
+   flex-direction:row;
+   align-items: center;
+ 
+}

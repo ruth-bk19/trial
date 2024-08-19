@@ -1,0 +1,69 @@
+
+  .Parent {
+    display:flex;
+    gap:32px;
+    max-width:100%;
+    max-height: 80%;
+    justify-items: center;
+    align-items: center;
+    
+  }
+  .grid-container {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr); 
+  background-color: #FFFF;
+  border: 1px solid #212121;
+  border-radius: 8px;
+  
+  
+}
+.div1{ 
+  margin-right: 16px; 
+  padding:24px 24px 0px 24px; 
+} 
+
+ .div5{ 
+  
+  grid-column:span 3; 
+  padding:42px 32px 42px 32px;
+  background-color:  #F8FF90;
+  height:fit-content;
+} 
+
+.div5 button{
+  margin-right:16px;
+  height:48px;
+}
+.div5 .btn1{
+  background-color: #212121;
+  color:aliceblue;
+ width:max-content;
+
+}
+.div5 .btn2{
+  background-color: transparent;
+  border:1px solid #212121;
+ 
+
+}
+.div5 .btn3{
+  border:none;
+  background-color: transparent;
+  
+}
+.div5 p{
+  justify-content: left;
+}
+.container_2nd{
+ display:grid;
+  grid-template-rows:repeat(2,1fr) ;  
+  border-radius: 8px;
+  border:1px solid #212121;
+}
+.container_2nd .div4{
+  border-color: #212121;
+}
+.container_2nd .div6{
+  background-color: #96D9F0;
+}

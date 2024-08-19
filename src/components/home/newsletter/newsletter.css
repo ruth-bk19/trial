@@ -1,0 +1,9 @@
+ .news_container{
+    display:flex;
+    gap:40px;
+    
+} 
+ .news_container .action{
+   display:flex;
+    gap:8px;
+}

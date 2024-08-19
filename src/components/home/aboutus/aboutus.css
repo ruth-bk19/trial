@@ -1,0 +1,13 @@
+@media (max-width:720px) {
+   .container_aboutUs{
+      display: grid;
+   }
+   
+}
+.container_aboutUs{
+   margin-top: 112px;
+}
+.container_aboutUs .about_us h1,p{
+   display:flex;
+    justify-content: center; 
+}
